@@ -1,0 +1,597 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+% Comandos para escrever BibTeX e BibLaTeX com a grafia esperada.
+\newcommand{\bibtex}{\textsc{Bib}\negthinspace\TeX\space}
+\newcommand{\biblatex}{\textsc{Bib}\LaTeX}
+
+% For controling section formatting.
+\usepackage{sectsty,textcase}
+\sectionfont{\normalfont\normalsize\bfseries\MakeTextUppercase}
+\subsectionfont{\normalfont\normalsize\MakeTextUppercase}
+\subsubsectionfont{\normalfont\normalsize\bfseries}
+
+% Use to align "Folha de Rosto"
+\usepackage{changepage}
+\usepackage{ragged2e}
+\usepackage{hyphenat}
+
+% position page number on the header, at right.
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}
+\rhead{\thepage}
+\cfoot{}
+\fancypagestyle{empty}{\fancyhf{}}
+\fancypagestyle{plain}{\fancyhf{}}
+
+% Align Table and Figure "captions"
+\usepackage[singlelinecheck=false]{caption}
+
+% Cria ambiente para citacoes longas.
+\newenvironment{citacao}%
+{ \par\addvspace{\baselineskip}%
+   \footnotesize%
+   \begin{adjustwidth}{40mm}{0cm}}%
+{\end{adjustwidth}\addvspace{\baselineskip}\par}
+
+% Configure TOC
+\usepackage{tocloft,etoolbox}
+%% Fixes capitalization for Section and Subsection.
+\patchcmd{\l@section}{#1}{\MakeUppercase{#1}}{}{}
+\patchcmd{\l@subsection}{#1}{\MakeUppercase{#1}}{}{}
+%% Hide page numbers no TOC, LOT and LOF
+\renewcommand{\cftaftertoctitle}{\thispagestyle{empty}}
+\renewcommand{\cftafterloftitle}{\thispagestyle{empty}} 
+\renewcommand{\cftafterlottitle}{\thispagestyle{empty}}
+%%  Fixes TOC, LOT and LOF  title font
+\renewcommand{\cfttoctitlefont}{\hfill\bfseries\MakeUppercase}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\bfseries\MakeUppercase}
+\renewcommand{\cftafterlottitle}{\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\bfseries\MakeUppercase}
+\renewcommand{\cftafterloftitle}{\hfill}
+
+%% Fixes description in LOT and LOF
+\renewcommand{\cftfigfont}{Figura }
+\renewcommand{\cfttabfont}{Tabela }
+
+%% Fixes subsubsection font
+\renewcommand{\cftsubsubsecfont}{\bfseries}
+
+%% Fixes identation on TOC
+\cftsetindents{subsec}{0cm}{1.25cm}
+\cftsetindents{sec}{0cm}{1.25cm}
+\cftsetindents{subsubsec}{0cm}{1.25cm}
+\cftsetindents{fig}{0cm}{1.25cm}
+\cftsetindents{tab}{0cm}{1.25cm}
+%% Hide 'dots' on TOC, LOF and LOT.
+\renewcommand{\cftfigdotsep}{\cftnodots}
+\renewcommand{\cfttabdotsep}{\cftnodots}
+\renewcommand{\cftsecdotsep}{\cftnodots}
+\renewcommand{\cftsubsecdotsep}{\cftnodots}
+\renewcommand{\cftsubsubsecdotsep}{\cftnodots}
+%% Fixes separation between sections.
+\renewcommand{\cftbeforesecskip}{0em}
+
+% Add up to subsubsection to TOC 
+\setcounter{tocdepth}{3}
+
+% fix abstract title font
+\usepackage{abstract}
+\renewcommand{\abstractnamefont}{\normalfont\normalsize\bfseries\MakeUppercase}
+
+% Used to colorize table cells
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{colortbl}
+
+% Fix item names
+\usepackage[brazilian]{babel}
+\addto{\captionsbrazilian}{\renewcommand{\listfigurename}{Lista de Ilustrações}}
+
+% Fix identation of first paragraph
+\usepackage{indentfirst}
+
+% Fixes footnote alignment
+\usepackage[hang]{footmisc}
+\setlength\footnotemargin{8pt}
+
+% Set default figure and table placement
+\def\fps@figure{h}
+\def\fps@table{h}
+
+% Bibliography configuration
+\usepackage[%
+    style=authoryear-comp,
+    natbib=true,
+    isbn=false,
+    doi=true,
+    dateabbrev=true,
+    mergedate=basic,
+    backend=biber]{biblatex}
+%% Allow bib file to be specied as a relative path from document root.
+\ifcsname input@path\endcsname 
+  \edef\@basepath{\expandafter\@firstofone\input@path} %remove curly braces
+  \def\rm@quotes#1"#2"#3\@nul{\ifx\relax#2\relax #1\else #2\fi} %
+  \edef\@basepath{\expandafter\rm@quotes\@basepath""\@nul} %remove quotes
+\else\edef\@basepath{./}\fi
+%
+\let\orig@addbibresource\addbibresource
+\renewrobustcmd*{\addbibresource}[2][type=file]{\orig@addbibresource[#1]{\@basepath#2}}
+
+% Load bibliography.
+\addbibresource{bibliografia.bib}
+
+% center bibliography section title
+\defbibheading{bibliography}[\refname]{%
+    \centering\section*{#1}%
+    \addcontentsline{toc}{section}{\refname}%
+    \markboth{#1}{#1}%
+}
+
+% fix bibliography alignment
+\setlength{\bibhang}{0pt}
+\renewcommand*{\bibfont}{\raggedright}
+
+% Fix bibliography entries
+
+% Fix author names separator.
+\renewcommand*{\multinamedelim}{;\space}
+\renewcommand*{\finalnamedelim}{;\space}
+
+% Make last author name uppercase
+\AtBeginBibliography{\renewcommand{\mkbibnamelast}[1]{\MakeUppercase{#1}}}
+
+% Fix name order to be "last name, name" for all authors.
+\DeclareNameAlias{sortname}{last-first}
+
+
+% Fix strings
+\DefineBibliographyStrings{brazilian}{%
+  url = {Disponível em\addcolon\addspace},
+  pages = {p\adddot},
+  in = {Em\addcolon},
+  volume  = {vol\adddot},
+  number = {n\adddot},
+  urlseen = {Acesso em\addcolon\addspace},
+}
+
+% Fix urldate
+\DeclareFieldFormat{urldate}{%
+    \space\bibstring{urlseen}\space%
+    \thefield{urlday}\space%
+    \mkbibmonth{\thefield{urlmonth}}\space%
+    \thefield{urlyear}\adddot}
+
+% Fix Volume
+\DeclareFieldFormat*{volume}{\space vol\adddot\addspace{#1}\adddot}
+
+% Fix Number
+\DeclareFieldFormat*{number}{\space n\adddot\addspace{#1}\adddot}
+
+% Fix URL (with non-ASCII chars)
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldsource=url]
+      \step[fieldset=verba, origfieldval]
+    }
+  }
+}
+\DeclareFieldFormat*{url}{\space\bibstring{url}<\thefield{verba}>}
+
+% Fix title
+\DeclareFieldFormat*{title}{#1}
+\DeclareFieldFormat*{subtitle}{\addcolon {#1}}
+
+% Fix order of fields for Books
+\DeclareBibliographyDriver{book}{%
+  \printnames{author}%
+  \newunit\newblock
+  \textbf{\printfield{title}}
+  \printfield{subtitle}
+  \newunit\newblock
+  \printlist{publisher}%
+  \newunit
+  \printlist{location}%
+  \newunit
+  \printfield{year}%
+  \finentry}
+
+% Fix order of fields for Misc
+\DeclareBibliographyDriver{misc}{%
+  \printnames{author}%
+  \newunit\newblock
+  \textbf{\printfield{title}}%
+  \newunit\newblock
+  \textbf{\printlist{publisher}}%
+  \newunit
+  \printlist{location}%
+  \newunit
+  \printfield{year}%
+  \newunit
+  \printfield{url}%
+  \newunit
+  \printurldate
+  \finentry}
+
+% Fix proceedings
+\DeclareFieldFormat*{booktitle}{#1}
+
+% fix journal
+\DeclareFieldFormat*{journaltitle}{#1}
+
+% Fix order of fields for inprocedings
+\DeclareBibliographyDriver{inproceedings}{%
+  \printnames{author}%
+  \newunit\newblock
+  \printfield{title}\adddot\addspace%
+  \textbf{\usebibmacro{maintitle+booktitle}}%
+  \newunit%
+  \printfield{volume}%
+  \printfield{number}%
+  \newunit\newblock%
+  \usebibmacro{chapter+pages}%
+  \newunit
+  \printlist{address}%
+  \newunit
+  \printfield{year}%
+ \finentry}
+
+% Fix order of fields for article
+\DeclareBibliographyDriver{article}{%
+  \printnames{author}%
+  \newunit\newblock
+  \printfield{title}\adddot\addspace%
+  \textbf{\usebibmacro{journal}}%
+  \newunit%
+  \printfield{volume}%
+  \printfield{number}%
+  \newunit\newblock%
+  \usebibmacro{chapter+pages}%
+  \newunit
+  \printlist{location}%
+  \newunit
+  \printfield{year}%
+ \finentry}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\begin_local_layout
+Provides natbib 1
+\end_local_layout
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command biber
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Análise de Tecnologias e Ferramentas
+\end_layout
+
+\begin_layout Standard
+O sistema Techspeeches será construído sobre a plataforma Linux, utilizando
+ tecnologias como Nginx, PHP, Neo4J, MongoDB, Python, Docker para o 
+\emph on
+backend
+\emph default
+, a escolha do sistema de armazenamento de dados não está definida, devido
+ a isso ainda serão efetuados testes com os banco de dados 
+\emph on
+NoSQL, 
+\emph default
+Neo4J e MongoDB.
+\end_layout
+
+\begin_layout Standard
+No 
+\emph on
+frontend
+\emph default
+ serão utilizadas tecnologias como HTML, CSS e JavaScript.
+ A escolha das tecnologias tem seu critério baseado na disponibilidade das
+ mesmas, seja em componentes necessários a construção do projeto ou por
+ suas liçensas.
+ Será utilizados também na construção do projetos uma ferramenta para controle
+ de versão.
+\end_layout
+
+\begin_layout Subsection
+Nginx
+\end_layout
+
+\begin_layout Standard
+Nginx é um servidor e proxy reverso HTTP de alta performance, um ótimo acelerado
+r http, gratuito e livre, bem como um servidor proxy para IMAP/POP3.
+\end_layout
+
+\begin_layout Standard
+Foi criado pelo programador russo Igor Sysoev em 2005.
+\end_layout
+
+\begin_layout Standard
+Suas caracteristícas príncipais são proxy reverso, proxy de servidor de
+ e-mail (SMTP, POP3 e IMAP), proxy de balanceamento de carga, tolerância
+ a falhas, suporte SSL, suporte FastCGI, nome e IP baseados em servidores
+ virtuais, streaming, usando o módulo MP4 streaming e controle de acesso
+ e autenticação.
+\end_layout
+
+\begin_layout Subsection
+PHP
+\end_layout
+
+\begin_layout Standard
+O PHP
+\emph on
+ (PHP: Hypertext Preprocessor) 
+\emph default
+é uma linguagem de programação criada em 1994 por Rasmus Lerdorf e mantida
+ hoje pela Zend, é uma linguagem de código berto e de ampla utilização,
+ interpretada, que é especialmente interessante para desenvolvimento para
+ a web e pode ser mesclada dentro do código HTML.
+ 
+\end_layout
+
+\begin_layout Standard
+A sintaxe da linguagem lembra C, Java e Perl, e é fácil de aprender.
+ O objetivo principal da linguagem é permitir a desenvolvedores escreverem
+ páginas que serão geradas dinamicamente rapidamente.
+\end_layout
+
+\begin_layout Subsection
+Neo4J
+\end_layout
+
+\begin_layout Standard
+Neo4j é um banco de dados de código aberto grafo 
+\emph on
+NoSQL
+\emph default
+ (Banco de Dados que não utiliza os conceitos estruturados) criado pela
+ empresa Neo Technology.
+ As informações não são armazenadas em tabelas, mas sim na forma de grafos
+ e suas estruturas são representadas de forma que o conhecimento é representado
+ pelos conceitos matemáticos da Teoria de Grafos.
+ Casos de uso incluem gerenciamento de rede, 
+\emph on
+softwares
+\emph default
+ analiticos, pesquisa cientifica, roteamento, gestão organizacional e de
+ projeto, recomendações, redes sociais e muito mais.
+\end_layout
+
+\begin_layout Subsection
+MongoDB
+\end_layout
+
+\begin_layout Standard
+MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos
+ de alta performance, escrito em C++.
+ MongoDB armazena seus dados em documentos JSON com esquema dinâmico.
+ Isso significa que você pode armazenar seus registros sem se preocupar
+ com a estrutura de dados, como o número de campos ou tipos de campos para
+ armazenar valores.
+ Os documentos do MongoDB são semelhantes aos objetos JSON.
+ MongoDB ocupa a quarta posição no 
+\emph on
+ranking
+\emph default
+ mundial, desde Fevereiro de 2015.
+\end_layout
+
+\begin_layout Subsection
+Python
+\end_layout
+
+\begin_layout Standard
+Python
+\emph on
+ 
+\emph default
+é uma linguagem de programação criada por Guido van Rossum em 1991.
+ Os objetivos do projeto da linguagem eram: produtividade e legibilidade.
+ Em outras palavras, Python é uma linguagem que foi criada para produzir
+ código bom e fácil de manter de maneira rápida.
+ Além disso, Python suporta múltiplos paradigmas de programação.
+ Python é uma linguagem livre e multiplataforma.
+ Isso significa que os programas escritos em uma plataforma serão executados
+ sem nenhum problema na maioria das plataformas existentes sem nenhuma modificaç
+ão.
+\end_layout
+
+\begin_layout Subsection
+HTML
+\end_layout
+
+\begin_layout Standard
+HTML
+\emph on
+ (Hypertext Markup Language)
+\emph default
+ é um linguagem de marcação utilizada como extrutura para documentos na
+ 
+\emph on
+World Wide Web (WWW)
+\emph default
+ definida inicialmente por Tim Berners-Lee em 1990, e atualmente mantida
+ pelo 
+\emph on
+World Wide Web Consortium (W3C)
+\emph default
+, organização responsável por manter os padrões utilizados na 
+\emph on
+Web
+\emph default
+.
+ A versão atual é o HTML5, que incorpora diversas funcionalidades, incluindo
+ suporte a multimídia.
+\end_layout
+
+\begin_layout Subsection
+CSS
+\end_layout
+
+\begin_layout Standard
+CSS
+\emph on
+ (Cascading Style Sheets)
+\emph default
+ é um a linguagem para definição de configurações de visualização em documentos
+ que utilizam uma linguagem de marcação como o HTML e o XML, e ela permite
+ a separação entre o conteúdo e o formato de documentos.
+ As especificações do CSS são mantidas pelo 
+\emph on
+W3C
+\emph default
+ e a versão atual é o CSS3.
+ 
+\end_layout
+
+\begin_layout Subsection
+JavaScript
+\end_layout
+
+\begin_layout Standard
+JavaScript (às vezes abreviado para JS) é uma linguagem leve, interpretada
+ e baseada em objetos com funções de primeira classe, mais conhecida como
+ a linguagem de script para páginas 
+\emph on
+Web
+\emph default
+, mas usada também em vários outros ambientes sem browser como NodeJS ou
+ Apache CouchDB.
+\end_layout
+
+\begin_layout Standard
+O fundador do JavaScript foi Brendan Eich, Eich ajudou a fundar a Mozilla
+ Foundation, atual mantenedora da linguagem.
+\end_layout
+
+\begin_layout Subsection
+Git
+\end_layout
+
+\begin_layout Standard
+Git é um controle de versão de arquivos gratuito e de código aberto, ele
+ é designado para lidar com tudo, desde pequenas a grandes projetos com
+ rapidez e eficiência.
+ 
+\end_layout
+
+\begin_layout Standard
+Git considera que os dados são como um conjunto de 
+\emph on
+snapshots
+\emph default
+ (captura de algo em um determinado instante, como em uma foto) de um mini-siste
+ma de arquivos.
+ Cada vez que você salva ou consolida (commit) o estado do seu projeto no
+ Git, é como se ele tirasse uma foto de todos os seus arquivos naquele momento
+ e armazenasse uma referência para essa captura.
+ Para ser eficiente, se nenhum arquivo foi alterado, a informação não é
+ armazenada novamente - apenas um link para o arquivo idêntico anterior
+ que já foi armazenado.
+ Isso faz com que você tenha um histórico de evolução do projeto.
+\end_layout
+
+\begin_layout Subsection
+Docker
+\end_layout
+
+\begin_layout Standard
+Docker é uma plataforma aberta para desenvolvedores construírem, entregarem
+ e executarem aplicações distribuídas independente do ambiente(DOCKER, 2016).
+ Utiliza o conceito de containers com benefícios similares a máquinas virtuais.
+ Tais como alocação de recursos e isolamento de processos.
+ Porém sua abordagem de arquitetura o torna muito mais portável e eficiente,
+ enquanto máquinas virtuais simulam todo o sistema operacional o Docker
+ faz uso de LXC(Linux Containers), utilizando recursos reais da máquina
+ hospedeira.
+\end_layout
+
+\begin_layout Subsection
+Trello
+\end_layout
+
+\begin_layout Standard
+Trello é um organizador de tarefas e eventos bastante dinâmico e funcional.
+ Foi inspirado na metodologia Scrum, processo de desenvolvimento para gerenciar
+ projetos e desenvolvimento ágil de softwares.
+ Será utilizado para organização das tarefas na construção do sistema Techspeech
+es, junto a técnica Kanban (vide Abordagem de Desenvolvimento).
+\end_layout
+
+\end_body
+\end_document
