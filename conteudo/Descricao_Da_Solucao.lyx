@@ -341,63 +341,12 @@ Descrição da Solução
 \end_layout
 
 \begin_layout Standard
-A solução deste projeto foi desenvolvida de acordo com a Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:mapa-mental"
-
-\end_inset
-
-, sendo o objetivo central da solução, facilitar a centralização de conteúdo
- e s recomendação como forma de auxiliar o usuário na otimização do tempo.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:mapa-mental"
-
-\end_inset
-
-Mapa mental do projeto.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename /home/morvanabonin/Projetos/TCC/images/mapa-mental-techflix.png
-	width 16cm
-	BoundingBox 0bp 0bp 1244bp 344bp
-	clip
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Fonte: Autor do projeto.
-\end_layout
-
-\end_inset
-
-
+A criação do sistema Techspeeches, tem como propósito maior de solução o
+ de auxiliar os usuários da área de tecnologia, a terem um melhor aproveitamento
+ em suas buscas por conteúdos da área e também a terem uma melhor experiência
+ quanto ao processo de buscas de conteúdos, bem como nos conteúdos que lhe
+ serão recomendados, poupando-lhes assim tempo e direcionando-os com um
+ foco mais específico ao conteúdo buscado.
 \end_layout
 
 \begin_layout Subsection

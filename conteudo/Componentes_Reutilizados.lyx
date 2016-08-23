@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 % Comandos para escrever BibTeX e BibLaTeX com a grafia esperada.
@@ -270,16 +272,16 @@ Provides natbib 1
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -339,174 +341,37 @@ Componentes Reutilizados
 \end_layout
 
 \begin_layout Standard
-Lista de todo material que foi ou será reutilizado de outras origens, tais
- como: documentos de empresas, base de dados, frameworks, bibliotecas, serviços
- WEB, entre outros.
-\end_layout
-
-\begin_layout Standard
-Neste projeto, os seguintes componentes foram reutilizados:
-\end_layout
-
-\begin_layout Description
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-biblatex
-\end_layout
-
-\end_inset
-
- Para inserção das referências bibliográficas do texto.
-\end_layout
-
-\begin_layout Description
-Lyx Editor de textos que utiliza o 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
- para a geração do documento final.
-\end_layout
-
-\begin_layout Description
-Pacotes
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-space
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
- Diversos pacotes da distribuição padrão do 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
- para formatação do texto.
+Segue o lista descrevendo os seguintes componentes reutilizados para a costrução
+ da solução do projeto:
 \end_layout
 
 \begin_layout Subsection
-Pacotes 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
-
+Imagem Docker
 \end_layout
 
 \begin_layout Standard
-Para facilitar a formatação do texto, diversos pacotes 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
+O Docker através do Docker Hub fornece algumas imagens de terceiros que
+ facilitam na construção do projeto.
 \end_layout
 
-\end_inset
-
- foram utilizados, e são descritos a seguir:
+\begin_layout Standard
+Imagens Docker são arquivos contendo componentes de infraestrutura para
+ a utilização de sistemas operacionais, Debian, Ubuntu, CentOS, bem como
+ versões e tipos de banco de dados, linguagens e sistemas.
 \end_layout
 
-\begin_layout Description
-sectsty Para formatar os títulos de seção.
-\end_layout
-
-\begin_layout Description
-textcase Para alterar a capitalização de palavras.
-\end_layout
-
-\begin_layout Description
-changepage Para alterar as configurações de página em trechos específicos.
-\end_layout
-
-\begin_layout Description
-ragged2e Para alinhamento de texto.
-\end_layout
-
-\begin_layout Description
-hyphenat Para controlar a hifenização.
-\end_layout
-
-\begin_layout Description
-caption Para controlar a formatação e alinhamento de tabelas e figuras.
-\end_layout
-
-\begin_layout Description
-tocloft Para controlar a formatação das listas de figuras e tabelas e do
- sumário.
-\end_layout
-
-\begin_layout Description
-etoolbox Permite alterar commandos existentes do 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Description
-abstract Permite formatar o resumo.
-\end_layout
-
-\begin_layout Description
-babel Para controlar as regras de acordo com uma língua específica.
-\end_layout
-
-\begin_layout Description
-identfirst Identa corretamente o primeiro paragrafo de cada seção.
-\end_layout
-
-\begin_layout Description
-fancyhdr Define a posição da numeração de páginas.
+\begin_layout Standard
+Essas imagens são armazenas em um repositório ao qual o Docker nomeia de
+ 
+\emph on
+Registry, 
+\emph default
+esses 
+\emph on
+Registries
+\emph default
+ pode ser privados (imagens próprias) ou públicos (imagens compartilhadas),
+ no caso o Docker Hub é público.
 \end_layout
 
 \end_body

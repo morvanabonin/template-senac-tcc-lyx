@@ -341,7 +341,7 @@ Objetivos
 \end_layout
 
 \begin_layout Standard
-Os objetivos deste projeto são descritos nas próximas secções deste documento.
+Os objetivos deste projeto são descritos nas seções seguintes deste documento.
 \end_layout
 
 \begin_layout Subsection
@@ -349,10 +349,10 @@ Objetivo Geral
 \end_layout
 
 \begin_layout Standard
-O objetivo geral deste projeto é o desenvolvimento de um sistema que possa
- auxiliar as pessoas envolvidas na área de tecnologia a encontrarem conteúdo
+O objetivo geral do projeto é o desenvolvimento de um sistema que possa
+ auxiliar os usuários envolvidos na área de tecnologia a encontrarem conteúdo
  de qualidade e relevância em um curto espaço de tempo através da utilização
- de recomendação.
+ do sistema de recomendação.
 \end_layout
 
 \begin_layout Subsection
@@ -383,7 +383,7 @@ b)
 
 \end_inset
 
-Facilitar buscas sobre temas na área de tecnologia.
+Facilitar pesquisas sobre temas na área de tecnologia.
 \end_layout
 
 \begin_layout Enumerate
@@ -396,7 +396,7 @@ c)
 
 \end_inset
 
-Garantir ao usuário do sistema uma maior abrangência sobre o conteúdo pesquisado.
+Possibilitar ao usuário do sistema maiores fontes sobre o conteúdo pesquisado.
 \end_layout
 
 \end_body
