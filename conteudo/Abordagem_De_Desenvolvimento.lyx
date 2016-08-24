@@ -343,8 +343,7 @@ Abordagem de Desenvolvimento
 \begin_layout Standard
 Após analisar e comparar diversas metodologias optou-se por se basear em
  técnicas da métologia Scrum, conceitos e técnicas do Design Thinking e
- técnicas japonesa Kanban para fundamentação e construção do sistema Techspeeche
-s.
+ técnicas japonesa Kanban para fundamentação e construção do sistema Focus2Learn.
 \end_layout
 
 \begin_layout Subsection
@@ -416,7 +415,7 @@ Sprints
 \begin_layout Standard
 O Scrum é uma métodologia para se trabalhar com equipes pequenas, como não
  é o caso, visto que será apenas uma única pessoa, será um embasamento,
- orientação estratégica para otimização na cosntrução do sistema Techspeeches,
+ orientação estratégica para otimização na cosntrução do sistema Focus2Learn,
  utilizando seus benefícios, bem como, definição de ciclos de desenvolvimentos
  baseando-se em valor de entrega, ou seja, os ciclos devem ser definidos
  a partir do valor que podem ser entregues, definição melhor do escopo de

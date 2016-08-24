@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \begin_preamble
 % Comandos para escrever BibTeX e BibLaTeX com a grafia esperada.
@@ -267,16 +269,16 @@ Provides natbib 1
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -332,38 +334,17 @@ Provides natbib 1
 \begin_body
 
 \begin_layout Abstract
-Aqui, você deve resumir todo o seu projeto em no máximo 500 palavras.
- Procure contextualizar brevemente o assunto, e após diga o motivo da realização
- do projeto, o que será realizado e de que forma será realizado.
- Por exemplo: 
-\begin_inset Quotes eld
-\end_inset
-
-O Trabalho de Conclusão de Curso é um passo importante na formação do aluno,
- pois é uma oportunidade de condensar toda a formação recebida em um projeto,
- combinado com o interesse pessoal do aluno.
- Parte importante deste projeto é o Relatório de Projeto, que deve ser editado
- seguindo as normas da ABNT.
- A existência de um modelo com as normas da ABNT facilita este trabalho,
- e este projeto propõe a criação de um modelo para o editor LyX, um editor
- de textos que utiliza a linguagem de diagramação 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-LaTeX
+As tecnlogias estão sempre em costante evolução e isso faz com que o profissiona
+l que trabalhe na área de tecnologia tenha que estar sempre informado dessas
+ mudanças, isso faz com que, pesquisas por novos conteúdos seja frequente,
 \end_layout
 
-\end_inset
-
- para geração do documento e está disponível em diversas plataformas
-\begin_inset Quotes erd
-\end_inset
-
-.
+\begin_layout Abstract
+O presente projeto tem como intuito o de auxiliar profissionais, estudantes
+ e interessados em tecnlogia a encontrar subsidios para seus estudo de forma
+ mais fácil e focada através da recomendação, além de, no caso do palestrante,
+ ter seu trabalho reconhecido de acordo a nota que os usuários que utilizarem
+ o sistema forem dando, visto que isso auxiliará também na recomendação.
 \end_layout
 
 \begin_layout Abstract
@@ -373,8 +354,8 @@ LaTeX
 \series bold
 Palavras-chave: 
 \series default
-Palavras.
- Separadas.
+Palestras.
+ Recomendação.
  Por ponto.
  Máximo.
  Cinco.

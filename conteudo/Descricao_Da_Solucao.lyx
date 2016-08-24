@@ -341,7 +341,7 @@ Descrição da Solução
 \end_layout
 
 \begin_layout Standard
-A criação do sistema Techspeeches, tem como propósito maior de solução o
+A criação do sistema Focus2Learn, tem como propósito maior de solução o
  de auxiliar os usuários da área de tecnologia, a terem um melhor aproveitamento
  em suas buscas por conteúdos da área e também a terem uma melhor experiência
  quanto ao processo de buscas de conteúdos, bem como nos conteúdos que lhe
@@ -354,7 +354,7 @@ Sistema
 \end_layout
 
 \begin_layout Standard
-O sistema Techspeeches é um sistema centralizador de conteúdo, em primeiro
+O sistema Focus2Learn é um sistema centralizador de conteúdo, em primeiro
  momento apenas vídeos de palestras e tutoriais sobre tecnologia, seu principal
  foco é a recomendação desses vídeos em cima de visualizações, notas de
  usuários e tags.
@@ -391,8 +391,8 @@ O MVP - Minimo produto viável (em inglês
 \emph on
 Minimum viable product
 \emph default
-) do sistema Techspeeches compreende inicialmente prover seu conteúdo externamen
-te (vídeos), a começar pelo maior canal de vídeos, o 
+) do sistema Focus2Learn compreende inicialmente prover seu conteúdo externament
+e (vídeos), a começar pelo maior canal de vídeos, o 
 \emph on
 YouTube
 \emph default

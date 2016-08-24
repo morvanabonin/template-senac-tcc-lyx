@@ -341,7 +341,7 @@ Análise de Tecnologias e Ferramentas
 \end_layout
 
 \begin_layout Standard
-O sistema Techspeeches será construído sobre a plataforma Linux, utilizando
+O sistema Focus2Learn será construído sobre a plataforma Linux, utilizando
  tecnologias como Nginx, PHP, Neo4J, MongoDB, Python, Docker para o 
 \emph on
 backend
