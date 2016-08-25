@@ -341,24 +341,30 @@ Definição do Problema
 \end_layout
 
 \begin_layout Standard
-O processo de pesquisas por conteúdos, pode não ser uma tarefa fácil atualmente,
- a quantidade de informações é tão grande que pode-se demorar horas entre
- procurar, encontrar e filtrar conteúdos que sejam de qualidade, relevantes
- e que realmente possam atender as expectativas.
+O processo de pesquisas por conteúdos que sejam do interesse para aprendizado
+ ou conhecimento, pode não ser uma tarefa fácil atualmente, a quantidade
+ de informações é tão grande que pode-se demorar horas entre procurar, encontrar
+ e filtrar conteúdos que sejam de qualidade, relevantes e que realmente
+ possam atender as expectativas.
 \end_layout
 
 \begin_layout Standard
-Muitas vezes a alternativa é optar só por um canal e se ater apenas a ele
- na horas das buscas, nem sempre é o mais efetivo, visto que existe muito
- conteúdo bom que pode não se encontrar nesse canal, outra alternativa é
- de filtrar a informação e mandar por algum canal a si mesmo como forma
- de backup, exemplo: Mandar um e-mail a si mesmo com 
+Muitas vezes a alternativa é optar apenas por um canal, que é uma forma
+ de passar conteúdo sobre determinado assunto, se atendo apenas a ele na
+ hora de pesquisar, nem sempre essa será uma busca efetiva, visto que um
+ único canal pode não concentrar uma grande variedade sobre o assunto da
+ pesquisa realizada ou mesmo não sendo o que o usuário esperava.
+\end_layout
+
+\begin_layout Standard
+Outra alternativa é a de pesquisar e filtrar a informação mandando a si
+ mesmo como forma de backup, exemplo: Mandar um e-mail a si mesmo com 
 \emph on
 links 
 \emph default
-são uteis para conhecimento, essa forma pode não é efetiva, pois o esforço
- de busca e filtro é grande, além de que se o e-mail não for marcado de
- forma eficaz, pode ser esquecido.
+que lhe são uteis para conhecimento, essa forma pode não ser efetiva, pois
+ o esforço de busca e filtro é grande, além de que se o e-mail não for marcado
+ de forma eficaz, pode ser esquecido.
  
 \end_layout
 
@@ -374,6 +380,724 @@ Em todos os casos expostos, existe o problema de localização de conteúdos
  para estudos e conhecimento, por ser muito conteúdo, além da incerteza
  quanto a propriedade de cada conteúdo, sendo assim será perdido um tempo
  que muitas vezes não se tem na filtragem do mesmo.
+\end_layout
+
+\begin_layout Standard
+Com a finalidade de comparação quanto ao projeto a ser desenvolvido, será
+ utilizado os seguintes sistemas que oferecem a mesma característica de
+ serviço.
+ Dentre esses sistemas estão YouTube (YOUTUBE, 2016), Hackr.io (HACKR.IO,
+ 2016), YouCourse (YOUCOURSE, 2016) e Egghead.io (EGGHEAD.IO, 2016).
+\end_layout
+
+\begin_layout Standard
+O YouTube hoje é o maior 
+\emph on
+website
+\emph default
+ distribuidor de conteúdo de vídeos, sendo esses conteúdos compartilhados
+ por usuários que criam perfis e os postam, bem como pelos que consomem
+ em pesquisas.
+ Possui sistema de recomendações de acordo perfil do usuário, também tem
+ como favoritar um vídeo, número de views, canais sobre determinado conteúdo
+ ao qual o usuário pode se inscrever e também votação através de 
+\emph on
+likes.
+\end_layout
+
+\begin_layout Standard
+O Hackr.io é um agregador de 
+\emph on
+links 
+\emph default
+focado na área de tecnologia, mais precisamente na área de desenvolvimento,
+ nele é possível achar desde livros, tutoriais, 
+\emph on
+posts
+\emph default
+ em 
+\emph on
+blogs
+\emph default
+ até vídeos.
+ No Hackr.io você pode compartilhar um pesquisa feita, tanto no twitter como
+ no facebook.
+ Seu layout é simples e seu foco é 
+\begin_inset Quotes eld
+\end_inset
+
+Compartilhar e descobrir os melhores tutoriais de programação e cursos onlines.
+\begin_inset Quotes erd
+\end_inset
+
+ (HACKR.IO, 2016)
+\end_layout
+
+\begin_layout Standard
+O YouCourse 
+\begin_inset Quotes eld
+\end_inset
+
+O maior EAD gratuito do mundo.
+\begin_inset Quotes erd
+\end_inset
+
+ (YOUCOURSE, 2016) de acordo eles, é um 
+\emph on
+website 
+\emph default
+focado em distribuir cursos gratuitos, é dividido por categorias, sua interface
+ é simples, não tem sistema de recomendação, mas tem pontuação e tem canais
+ próprios, nesses canais é possível ter o número de inscritos e visualizações.
+\end_layout
+
+\begin_layout Standard
+O Egghead.io é um 
+\emph on
+freemium 
+\emph default
+de cursos de tecnologia também voltado a área de desenvolvimento, seu foco
+ são tecnologias 
+\emph on
+client-side
+\emph default
+, tecnologias que rodam do lado do navegador, é possível saber as lições
+ assistidas nele, pesquisar por um curso específico dentre os que o sistema
+ oferece e investir na versão 
+\emph on
+GO PRO
+\emph default
+ que eles oferecem.
+\end_layout
+
+\begin_layout Standard
+No quadro 1 a seguir é possível visualizar um comparativo entre as funcionalidad
+es que foram consideradas nos sistemas listados acima.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Quadro comparativo entre sistemas correlatos"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="6">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="100bp">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Característica
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+YouTube
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hackr.io
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+YouCourse
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Egghead.io
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Focus2Learn
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recomendação
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Palestras
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tutoriais
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Notas de usuários
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Número de visualizações
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Centralizador de conteúdo de tecnologia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recomendação por notas de usuários
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recomendação por nº de visualizações
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+x
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align left
+
+\series bold
+\size footnotesize
+Fonte:
+\series default
+ autor do projeto.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Através da presente analise é possível observar que mesmo tendo diversas
+ opções de sistemas que fazem operações semelhantes, existe a possibilidade
+ de desenvolver um projeto que irá auxiliar profissionais, estudantes e
+ interessados em tecnlogia a encontrar em suas pesquisas, fontes que possam
+ contribuir para o aprendizado.
 \end_layout
 
 \end_body

@@ -343,7 +343,7 @@ Apresentação Geral do Projeto
 \begin_layout Standard
 Atualmente é inegavel que um dos bens mais caros e preciosos é o tempo,
  um especialista em gerenciamento de tempo e produtividade, diz que: "Ter
- mais tempo é um sonho que está na moda"(Cristian Barbosa 2007) 
+ mais tempo é um sonho que está na moda"(BARBOSA, 2007) 
 \end_layout
 
 \begin_layout Standard
@@ -364,8 +364,8 @@ ação é que a quantidade de informações apresentadas para as pessoas aumento
 
 \begin_layout Standard
 Esse excesso de informação e falta de tempo para assimilar essa quantidade
- extra de informações, se apresenta também com grande força na área da tecnologi
-a, visto que é uma área que está sempre em constantes mudanças e inovação.
+ extra de informações, se apresenta com grande força na área da tecnologia,
+ visto que é uma área que está sempre em constantes mudanças e inovação.
  É preciso estar sempre em evolução, um tema que é conhecido hoje pode já
  ser o legado de amanhã com uma nova versão deste mesmo tema sendo lançada,
  isso faz com que os sistemas de recomendação seja extremamente útil ao
@@ -375,15 +375,14 @@ a, visto que é uma área que está sempre em constantes mudanças e inovação.
 \end_layout
 
 \begin_layout Standard
-Hoje já existem diversos sistemas que utilizam a promoção de conteúdo em
- diferentes segmentos, seja de sugestões de música como Spotify, recomendações
- de possíveis amigos em redes sociais como o Facebook, até recomendação
- de cursos como o Coursera.
-\end_layout
-
-\begin_layout Standard
-A ideia é utilizar um conteúdo que já existe hoje de forma mais assertiva
- e que traga uma melhor experiência de busca e resultados para o aprendizado.
+Com base nessas informações o presente projeto tem como principal intuito,
+ auxiliar profissionais, estudantes e interessados em tecnlogia a encontrar
+ subsídios para seus estudo de forma mais fácil e focada através da recomendação
+, principalmente palestras e alguns tutoriais.
+ Nesse processo quem ministra a palestra ou faz um tutorial também se beneficia
+ com o reconhecimento do seu trabalho, visto que de acordo a nota que os
+ usuários, que utilizarem o sistema, forem dando, auxiliará também na recomendaç
+ão desse palestrante.
 \end_layout
 
 \end_body

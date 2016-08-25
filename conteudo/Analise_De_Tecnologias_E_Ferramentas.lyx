@@ -372,8 +372,9 @@ Nginx
 \end_layout
 
 \begin_layout Standard
-Nginx é um servidor e proxy reverso HTTP de alta performance, um ótimo acelerado
-r http, gratuito e livre, bem como um servidor proxy para IMAP/POP3.
+Nginx (NGINX, 2016) é um servidor e proxy reverso HTTP de alta performance,
+ um ótimo acelerador http, gratuito e livre, bem como um servidor proxy
+ para IMAP/POP3.
 \end_layout
 
 \begin_layout Standard
@@ -385,7 +386,11 @@ Suas caracteristícas príncipais são proxy reverso, proxy de servidor de
  e-mail (SMTP, POP3 e IMAP), proxy de balanceamento de carga, tolerância
  a falhas, suporte SSL, suporte FastCGI, nome e IP baseados em servidores
  virtuais, streaming, usando o módulo MP4 streaming e controle de acesso
- e autenticação.
+ e autenticação.(GRANDEHOST, 2012)
+\end_layout
+
+\begin_layout Standard
+O servidor Nginx será utilizado para rodar a aplicação.
 \end_layout
 
 \begin_layout Subsection
@@ -393,29 +398,50 @@ PHP
 \end_layout
 
 \begin_layout Standard
-O PHP
+O 
 \emph on
- (PHP: Hypertext Preprocessor) 
+PHP: Hypertext Preprocessor 
+\emph default
+(PHP, 2016)
+\emph on
+ 
 \emph default
 é uma linguagem de programação criada em 1994 por Rasmus Lerdorf e mantida
  hoje pela Zend, é uma linguagem de código berto e de ampla utilização,
  interpretada, que é especialmente interessante para desenvolvimento para
- a web e pode ser mesclada dentro do código HTML.
- 
+ a web e pode ser mesclada dentro do código HTML.(Yeni, 2016)
 \end_layout
 
 \begin_layout Standard
 A sintaxe da linguagem lembra C, Java e Perl, e é fácil de aprender.
  O objetivo principal da linguagem é permitir a desenvolvedores escreverem
- páginas que serão geradas dinamicamente rapidamente.
+ páginas que serão geradas dinamicamente rapidamente.(PHP.NET, 2016)
+\end_layout
+
+\begin_layout Standard
+A linguagem PHP será responsavél pela comunicação, usuário-sistema, leitura
+ de dados das APIs, comunicação com o banco de dados.
 \end_layout
 
 \begin_layout Subsection
+Gerenciamento da base de dados
+\end_layout
+
+\begin_layout Standard
+A base de dados ainda não foi definida, a opção está entre dois 
+\emph on
+NoSQL 
+\emph default
+que seguem a descrição abaixo.
+ Serão utilizados para armazenar dados do usuário, vídeos e ações do sistema.
+\end_layout
+
+\begin_layout Subsubsection
 Neo4J
 \end_layout
 
 \begin_layout Standard
-Neo4j é um banco de dados de código aberto grafo 
+Neo4j (NEO4J, 2016) é um banco de dados de código aberto grafo 
 \emph on
 NoSQL
 \emph default
@@ -430,15 +456,16 @@ softwares
 \emph default
  analiticos, pesquisa cientifica, roteamento, gestão organizacional e de
  projeto, recomendações, redes sociais e muito mais.
+ (EDUARDO; NICHOLAS, 2015)
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 MongoDB
 \end_layout
 
 \begin_layout Standard
-MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos
- de alta performance, escrito em C++.
+MongoDB (MONGODB, 2016) é um banco de dados NoSQL de código aberto, orientado
+ a documentos de alta performance, escrito em C++.
  MongoDB armazena seus dados em documentos JSON com esquema dinâmico.
  Isso significa que você pode armazenar seus registros sem se preocupar
  com a estrutura de dados, como o número de campos ou tipos de campos para
@@ -449,6 +476,7 @@ MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos
 ranking
 \emph default
  mundial, desde Fevereiro de 2015.
+ (SOARES; JHONATHAN, 2016)
 \end_layout
 
 \begin_layout Subsection
@@ -456,7 +484,7 @@ Python
 \end_layout
 
 \begin_layout Standard
-Python
+Python (PYTHON, 2016)
 \emph on
  
 \emph default
@@ -469,19 +497,38 @@ Python
  Isso significa que os programas escritos em uma plataforma serão executados
  sem nenhum problema na maioria das plataformas existentes sem nenhuma modificaç
 ão.
+ (PYSCIENCE-BRASIL, 2008)
+\end_layout
+
+\begin_layout Standard
+A linguagem Python será a responsável pela parte de recomendação e 
+\emph on
+ranking 
+\emph default
+do sistema.
 \end_layout
 
 \begin_layout Subsection
+Front-End
+\end_layout
+
+\begin_layout Standard
+Front-End é a camada no qual o usuário visualiza e interage com o sistema,
+ segue a lista das ferramentas que serão utilizadas para a construção da
+ parte visual do sistema.
+\end_layout
+
+\begin_layout Subsubsection
 HTML
 \end_layout
 
 \begin_layout Standard
-HTML
+
 \emph on
- (Hypertext Markup Language)
+HyperText Markup Language 
 \emph default
- é um linguagem de marcação utilizada como extrutura para documentos na
- 
+(HTML, 2016) é um linguagem de marcação utilizada como extrutura para documentos
+ na 
 \emph on
 World Wide Web (WWW)
 \emph default
@@ -499,18 +546,18 @@ Web
  suporte a multimídia.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 CSS
 \end_layout
 
 \begin_layout Standard
-CSS
+
 \emph on
- (Cascading Style Sheets)
+Cascading Style Sheets 
 \emph default
- é um a linguagem para definição de configurações de visualização em documentos
- que utilizam uma linguagem de marcação como o HTML e o XML, e ela permite
- a separação entre o conteúdo e o formato de documentos.
+(CSS, 2016) é um a linguagem para definição de configurações de visualização
+ em documentos que utilizam uma linguagem de marcação como o HTML e o XML,
+ e ela permite a separação entre o conteúdo e o formato de documentos.
  As especificações do CSS são mantidas pelo 
 \emph on
 W3C
@@ -519,14 +566,14 @@ W3C
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 JavaScript
 \end_layout
 
 \begin_layout Standard
-JavaScript (às vezes abreviado para JS) é uma linguagem leve, interpretada
- e baseada em objetos com funções de primeira classe, mais conhecida como
- a linguagem de script para páginas 
+JavaScript (JAVASCRIPT, 2016) é uma linguagem leve, interpretada e baseada
+ em objetos com funções de primeira classe, mais conhecida como a linguagem
+ de script para páginas 
 \emph on
 Web
 \emph default
@@ -535,7 +582,7 @@ Web
 \end_layout
 
 \begin_layout Standard
-O fundador do JavaScript foi Brendan Eich, Eich ajudou a fundar a Mozilla
+O criador do JavaScript foi Brendan Eich, Eich ajudou a fundar a Mozilla
  Foundation, atual mantenedora da linguagem.
 \end_layout
 
@@ -544,9 +591,9 @@ Git
 \end_layout
 
 \begin_layout Standard
-Git é um controle de versão de arquivos gratuito e de código aberto, ele
- é designado para lidar com tudo, desde pequenas a grandes projetos com
- rapidez e eficiência.
+Git (GIT, 2016) é um controle de versão de arquivos gratuito e de código
+ aberto, ele é designado para lidar com tudo, desde pequenas a grandes projetos
+ com rapidez e eficiência.
  
 \end_layout
 
@@ -566,13 +613,19 @@ ma de arquivos.
  Isso faz com que você tenha um histórico de evolução do projeto.
 \end_layout
 
+\begin_layout Standard
+O Git será utilizado para versionar o projeto, mantendo assim o histórico
+ de evolução e organização do código.
+\end_layout
+
 \begin_layout Subsection
 Docker
 \end_layout
 
 \begin_layout Standard
 Docker é uma plataforma aberta para desenvolvedores construírem, entregarem
- e executarem aplicações distribuídas independente do ambiente(DOCKER, 2016).
+ e executarem aplicações distribuídas independente do ambiente (DOCKER,
+ 2016).
  Utiliza o conceito de containers com benefícios similares a máquinas virtuais.
  Tais como alocação de recursos e isolamento de processos.
  Porém sua abordagem de arquitetura o torna muito mais portável e eficiente,
@@ -581,16 +634,24 @@ Docker é uma plataforma aberta para desenvolvedores construírem, entregarem
  hospedeira.
 \end_layout
 
+\begin_layout Standard
+A utilização do Docker se dará por imagens de algumas linguagens e sistemas,
+ bem como, Nginx, PHP, Neo4J ou MongoDB, isso facilita o trabalho com versões
+ e testes.
+\end_layout
+
 \begin_layout Subsection
 Trello
 \end_layout
 
 \begin_layout Standard
-Trello é um organizador de tarefas e eventos bastante dinâmico e funcional.
+Trello (TRELLO, 2016) é um organizador de tarefas e eventos bastante dinâmico
+ e funcional.
  Foi inspirado na metodologia Scrum, processo de desenvolvimento para gerenciar
  projetos e desenvolvimento ágil de softwares.
- Será utilizado para organização das tarefas na construção do sistema Techspeech
-es, junto a técnica Kanban (vide Abordagem de Desenvolvimento).
+ (BORGES; PAULA, 2012) Será utilizado para organização das tarefas na construção
+ do sistema Focus2Learn, junto a técnica Kanban (vide Abordagem de Desenvolvimen
+to).
 \end_layout
 
 \end_body
