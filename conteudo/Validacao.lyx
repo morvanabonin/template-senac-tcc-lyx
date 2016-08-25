@@ -341,80 +341,16 @@ Validação
 \end_layout
 
 \begin_layout Standard
-A validação se dará pelos conceitos de Imersão (
-\emph on
-Insights
-\emph default
-) do Design Thinking em duas etapas.
- A Imersão pode ser divida em duas etapas: Preliminar e em Profundidade.
- (Vianna, Maurício 2012 pg.
- 22)
-\end_layout
-
-\begin_layout Standard
-Essas imersões servirão melhor para comprovação da ideação, solução proposta
- do problema.
-\end_layout
-
-\begin_layout Standard
-Ocorrerão validações por término de Sprints ao mostrar alguma funcionalidade
- pronta do MVP que está sendo construído.
+Nesta seção será abordada a estratégia de como funcionará o processo de
+ validação deste projeto.
 \end_layout
 
 \begin_layout Subsection
-Imersão Preliminar
+Estratégia
 \end_layout
 
 \begin_layout Standard
-Consiste em realizar uma pesquisa 
-\emph on
-Desk, 
-\emph default
-essas pesquisa tem como finalidade definir o escopo do projeto e suas fronteiras.
- A pesquisa Desk consiste na apuração de dados, buscando assim referências
- e tendências de foco do produto que está se buscando criar.
- A pesquisa Desk também fornece subsídios para a elaboração dos temas que
- serão investigados na Imersão em Profundidade.
-\end_layout
 
-\begin_layout Subsection
-Imersão em Profundidade
-\end_layout
-
-\begin_layout Standard
-Na Imersão em Profundidade é construído um plano de Pesquisa no qual incluí-se
- listagem dos perfis de usuários e atores-chaves para mapeamento dos contextos
- que serão estudados e avaliados.
- São utilizadas técnicas, tais como entrevistas, sessões generativas, etc.
-\end_layout
-
-\begin_layout Standard
-Cada técnica é escolhida em função do que se deseja obter para o projeto.
-\end_layout
-
-\begin_layout Standard
-Após a fase de Imersão Preliminar e em Profundidade, os dados são catalogados
- em Cartões de Insights e traduzidos em ferramentas como Personas, Blueprint,
- Mapas conceituais etc.
-\end_layout
-
-\begin_layout Standard
-No Design Thinking é possível fazer a prototipação em paralelo com a imersão
- e a ideação, é uma forma de ter o cliente ou quem utilizará o sistema em
- conjunto com o mesmo enquanto este é construído, tendo-se assim feedback
- durante a construção através do conhecimento do perfil do cliente, usuário
- do sistema.
- 
-\end_layout
-
-\begin_layout Subsection
-Por Sprints
-\end_layout
-
-\begin_layout Standard
-A cada 2 semanas será apresentada uma funcionalidade do sistema e essa será
- validada.
- 
 \end_layout
 
 \end_body

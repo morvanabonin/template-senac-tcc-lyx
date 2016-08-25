@@ -362,7 +362,7 @@ frontend
  serão utilizadas tecnologias como HTML, CSS e JavaScript.
  A escolha das tecnologias tem seu critério baseado na disponibilidade das
  mesmas, seja em componentes necessários a construção do projeto ou por
- suas liçensas.
+ suas licenças.
  Será utilizados também na construção do projetos uma ferramenta para controle
  de versão.
 \end_layout
@@ -456,7 +456,7 @@ softwares
 \emph default
  analiticos, pesquisa cientifica, roteamento, gestão organizacional e de
  projeto, recomendações, redes sociais e muito mais.
- (EDUARDO; NICHOLAS, 2015)
+ (EDUARDO, 2015)
 \end_layout
 
 \begin_layout Subsubsection
@@ -476,7 +476,7 @@ MongoDB (MONGODB, 2016) é um banco de dados NoSQL de código aberto, orientado
 ranking
 \emph default
  mundial, desde Fevereiro de 2015.
- (SOARES; JHONATHAN, 2016)
+ (SOARES, 2016)
 \end_layout
 
 \begin_layout Subsection
@@ -649,7 +649,7 @@ Trello (TRELLO, 2016) é um organizador de tarefas e eventos bastante dinâmico
  e funcional.
  Foi inspirado na metodologia Scrum, processo de desenvolvimento para gerenciar
  projetos e desenvolvimento ágil de softwares.
- (BORGES; PAULA, 2012) Será utilizado para organização das tarefas na construção
+ (BORGES, 2012) Será utilizado para organização das tarefas na construção
  do sistema Focus2Learn, junto a técnica Kanban (vide Abordagem de Desenvolvimen
 to).
 \end_layout

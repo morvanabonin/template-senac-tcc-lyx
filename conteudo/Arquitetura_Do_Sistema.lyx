@@ -338,147 +338,79 @@ Arquitetura do Sistema
 \end_layout
 
 \begin_layout Standard
-O sistema Focus2Learn será um sistema que rodará em um servidor e seu acesso
- se dará através de um cliente de 
-\emph on
-browser.
- 
-\emph default
-Com isso, para rodar o
-\emph on
- PHP, 
-\emph default
-utilizaremos o servidor
-\emph on
- Nginx.
- 
-\emph default
-Para os dados ainda está sendo feito testes de performance e praticidade
- entre o 
-\emph on
-MongoDB 
-\emph default
-e o
-\emph on
- Neo4J.
+Os seguintes artefatos apresentados aqui serão utilizados ao longo do processo
+ de desenvolvimento do projeto.
+ Esses artefatos estão divididos nos subtópicos que estão listados a seguir.
+\end_layout
+
+\begin_layout Subsection
+Modelagem Funcional
 \end_layout
 
 \begin_layout Standard
-A arquitetura do sistema será composta inicialmente de:
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-a)
-\end_layout
-
-\end_inset
-
-
+A modelagem funcional ficará por conta dos documentos (artefatos) do Scrum,
+ serão elaborados as funcionalidades, 
 \emph on
-PHP
+tasks 
 \emph default
- para 
+do
 \emph on
-login
+ Product Backlog e
 \emph default
- no sistema e leitura dos dados de API.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-b)
-\end_layout
-
-\end_inset
-
-
+ esse por sua vez irá compor o que será o
 \emph on
-Python
+ Backlog 
 \emph default
- para cuidar da parte de recomendação.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-c)
-\end_layout
-
-\end_inset
-
-
+das
 \emph on
-MongoDB
+ Sprints.
+ 
 \emph default
- ou 
+Caso se faça necessário maior entendimento dos requisitos, poderão ser utilisado
+s Histórias de Usuário.
+\end_layout
+
+\begin_layout Subsection
+Modelagem do Processo de Negócio
+\end_layout
+
+\begin_layout Standard
+Para o processo de negócios será feito um diagrama de fluxo de dados, com
+ o objetivo de melhor mostrar o projeto, além da documentação desse mesmo
+ fluxo.
+\end_layout
+
+\begin_layout Subsection
+Modelagem de Dados
+\end_layout
+
+\begin_layout Standard
+Na modelagem de dados será feito um modelo voltado a grafos em cima da base
+ de dados que for definida.
+\end_layout
+
+\begin_layout Subsection
+Modelagem da Interface Gráfica do Usuário
+\end_layout
+
+\begin_layout Standard
+Referente a modelagem de interface, serão construídos wireframes e também
+ esque- mas de navegação contendo a estrutura do site.
+\end_layout
+
+\begin_layout Standard
+Para a prototipação da Interface gráfica do usuário, ainda serão feitas
+ pesquisas para 
 \emph on
-Neo4J
+insights
 \emph default
- para armazenar os dados
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-d)
-\end_layout
-
-\end_inset
-
-
+ de como desenvolver, visando também simplicidade e usabilidade, nesses
+ 
 \emph on
-HTML
+insights
 \emph default
-, 
-\emph on
-CSS
-\emph default
-, 
-\emph on
-JavaScript
-\emph default
- para a construção da interfaçe gráfica e interativa.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-b)
-\end_layout
-
-\end_inset
-
-
-\emph on
-Git
-\emph default
- para versionamento e histórico de desenvolvimento do projeto.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Argument item:1
-status open
-
-\begin_layout Plain Layout
-c)
-\end_layout
-
-\end_inset
-
-Documentação do sistema através das tasks do mesmo e histórias de usuários.
+ serão utilizados papéis e lápis, depois desse processo serão criados wireframes
+ e também esquemas de navegação contendo o fluxo do sistema.
 \end_layout
 
 \end_body

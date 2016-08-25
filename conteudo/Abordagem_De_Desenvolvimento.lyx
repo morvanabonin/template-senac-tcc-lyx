@@ -341,9 +341,11 @@ Abordagem de Desenvolvimento
 \end_layout
 
 \begin_layout Standard
-Após analisar e comparar diversas metodologias optou-se por se basear em
- técnicas da métologia Scrum, conceitos e técnicas do Design Thinking e
- técnicas japonesa Kanban para fundamentação e construção do sistema Focus2Learn.
+Após uma análise em cima de abordagens de desenvolvimento, optou-se para
+ garantir a organização e entrega do sistema Focus2Learn se basear e utilizar
+ o framework ágil Scrum.
+ Para utilização de algo mais visual em relação as tarefas, optou-se pelo
+ Kanban.
 \end_layout
 
 \begin_layout Subsection
@@ -351,8 +353,109 @@ Scrum
 \end_layout
 
 \begin_layout Standard
-Scrum é uma metodologia usada para a gestão dinâmica de projetos, sendo
- muitas vezes aplicada para o desenvolvimento ágil de um software.
+Scrum é um framework ágil para desenvolvimento e manutenção de produtos
+ complexos.
+ (SCHWABER; SUTHERLAND, 2016)
+\end_layout
+
+\begin_layout Standard
+No Scrum, os projetos são dividos em ciclos chamados de 
+\emph on
+Sprints
+\emph default
+.
+ A 
+\emph on
+Sprint
+\emph default
+ representa um período de tempo, dentro do qual um conjunto de atividades
+ deve ser executado.
+ 
+\end_layout
+
+\begin_layout Standard
+Metodologias ágeis de desenvolvimento de software são iterativas, ou seja,
+ o trabalho é dividido em iterações, que são chamadas de Sprints no caso
+ do Scrum.
+\end_layout
+
+\begin_layout Standard
+As funcionalidades a serem implementadas em um projeto são mantidas em uma
+ lista que é conhecida como 
+\emph on
+Product Backlog
+\emph default
+.
+ No início de cada 
+\emph on
+Sprint
+\emph default
+, faz-se um 
+\emph on
+Sprint Planning Meeting
+\emph default
+, ou seja, uma reunião de planejamento na qual o 
+\emph on
+Product Owner
+\emph default
+ prioriza os itens do 
+\emph on
+Product Backlog
+\emph default
+ e a equipe seleciona as atividades que ela será capaz de implementar durante
+ o 
+\emph on
+Sprint
+\emph default
+ que se inicia.
+ As tarefas alocadas em um 
+\emph on
+Sprint
+\emph default
+ são transferidas do 
+\emph on
+Product Backlog
+\emph default
+ para o 
+\emph on
+Sprint Backlog
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+A cada dia de uma 
+\emph on
+Sprint
+\emph default
+, a equipe faz uma breve reunião (normalmente de manhã), chamada Reunião
+ Diária.
+ O objetivo é disseminar conhecimento sobre o que foi feito no dia anterior,
+ identificar impedimentos e priorizar o trabalho do dia que se inicia.
+\end_layout
+
+\begin_layout Standard
+Ao final de um 
+\emph on
+Sprint
+\emph default
+, a equipe apresenta as funcionalidades implementadas em uma 
+\emph on
+Sprint Review Meeting
+\emph default
+.
+ Finalmente, faz-se uma 
+\emph on
+Sprint Retrospective
+\emph default
+ e a equipe parte para o planejamento do próximo 
+\emph on
+Sprint
+\emph default
+.
+ Assim reinicia-se o ciclo.
+ (DESENVOLVIMENTOAGIL, 2014) Veja a figura abaixo de um ciclo completo da
+ métodologia Scrum:
 \end_layout
 
 \begin_layout Standard
@@ -367,11 +470,11 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:ciclo-scrum"
+name "fig:scrum"
 
 \end_inset
 
-Ciclo Scrum
+Processo de um ciclo da métodologia Scrum
 \end_layout
 
 \end_inset
@@ -394,7 +497,7 @@ Ciclo Scrum
 \begin_layout Plain Layout
 
 \size footnotesize
-Fonte: Denisson Vieira
+Fonte: Denisson Vieira, MindMaster.
 \end_layout
 
 \end_inset
@@ -403,55 +506,10 @@ Fonte: Denisson Vieira
 \end_layout
 
 \begin_layout Standard
-A escolha do Scrum como métodologia de processo é devido aos seus ciclos
- curtos de desenvolvimento e entrega, chamados de 
-\emph on
-Sprints
-\emph default
-.
- 
-\end_layout
-
-\begin_layout Standard
-O Scrum é uma métodologia para se trabalhar com equipes pequenas, como não
- é o caso, visto que será apenas uma única pessoa, será um embasamento,
- orientação estratégica para otimização na cosntrução do sistema Focus2Learn,
- utilizando seus benefícios, bem como, definição de ciclos de desenvolvimentos
- baseando-se em valor de entrega, ou seja, os ciclos devem ser definidos
- a partir do valor que podem ser entregues, definição melhor do escopo de
- tarefas, retrospectiva visando rever o que foi feito, para uma melhora
- continua no ciclo de desenvolvimento.
-\end_layout
-
-\begin_layout Standard
-As Sprints, normalmente são de 2 a 4 semanas, neste projeto optou-se por
- 2 semanas.
- Ao final de cada Sprint será entregue uma versão funcional e incremental
- do produto.
-\end_layout
-
-\begin_layout Subsection
-Design Thinking
-\end_layout
-
-\begin_layout Standard
-Segundo o livro 
-\emph on
-Design Thinking
-\emph default
-:Inovação em negócios (2012 p.13) Embora o nome 
-\begin_inset Quotes eld
-\end_inset
-
-design
-\begin_inset Quotes erd
-\end_inset
-
- seja frequentemente associado à qualidade e/ou aparência estética de produtos,
- o design como disciplina tem por objetivo máximo promover bem-estar na
- vida das pessoas.
- No entanto, é a maneira como o designer percebe as coisas e age sobre elas
- que vem chamando a atenção, abrindo novos caminhos para a inovação.
+A base fundamento da métodologia Scrum é composta pelas seguintes práticas
+ (
+\size footnotesize
+VIEIRA, 2014)
 \end_layout
 
 \begin_layout Standard
@@ -466,11 +524,11 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:design-thinking"
+name "fig:scrum-2"
 
 \end_inset
 
-Processo Design Thinking
+Prática do Scrum
 \end_layout
 
 \end_inset
@@ -480,10 +538,9 @@ Processo Design Thinking
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /home/morvanabonin/Projetos/TCC/images/momento-design-thinking.png
+	filename /home/morvanabonin/Projetos/TCC/images/Práticas-do-Scrum.png
 	width 16cm
-	BoundingBox 0bp 0bp 630bp 315bp
-	clip
+	BoundingBox 0bp 0bp 971bp 684bp
 
 \end_inset
 
@@ -493,7 +550,7 @@ Processo Design Thinking
 \begin_layout Plain Layout
 
 \size footnotesize
-Fonte: Cetem, Slideshare.
+Fonte: Denisson Vieira, MindMaster.
 \end_layout
 
 \end_inset
@@ -502,17 +559,42 @@ Fonte: Cetem, Slideshare.
 \end_layout
 
 \begin_layout Standard
-A utilização das técnicas do 
+De acordo um trecho do guia 
 \emph on
-Design Thinking 
+The Definitive Guide to Scrum: The Rules of the Game
 \emph default
-se dara junto as
+ 
+\begin_inset Quotes eld
+\end_inset
+
+O time Scrum consiste de um 
 \emph on
- Sprints 
+Product Owner
 \emph default
-como forma de entender e tentar se aproximar ao máximo do público do foco
- inicial do projeto e tentar dessa forma entender suas necessidades dentro
- do escopo no projeto.
+, do Time de desenvolvimento, e de um 
+\emph on
+Scrum Master
+\emph default
+.
+\begin_inset Quotes erd
+\end_inset
+
+ (SCHWABER; SUTHERLAND, 2016, p.
+ 5)
+\end_layout
+
+\begin_layout Standard
+Devido ao Scrum ser um framework ágil para times e este ser um projeto de
+ um único integrante, caberá a este assumir todos os pápeis fundamentais
+ do Scrum.
+ Também não será necessária a utilização da reunião diária, prevista nas
+ atividades básicas.
+\end_layout
+
+\begin_layout Standard
+Quanto as outras atividades básicas, bem como documentos (artefatos), serão
+ utilizados, visto que independe de uma equipe e entende-se que fazem parte
+ de um projeto.
 \end_layout
 
 \begin_layout Subsection
@@ -535,8 +617,8 @@ Kanban
 \end_layout
 
 \begin_layout Standard
-Será utilizado em conjunto com o Scrum para registrar as tarefas e o andamento
- das mesmas.
+Será utilizado em conjunto com o Design Thinking para registrar as tarefas
+ e o andamento das mesmas.
  A ferramenta para utilização do 
 \emph on
 Kanban
@@ -550,52 +632,6 @@ Trello
 Trello
 \emph default
 , vide Analise de Tecnologias e Ferramentas)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:kanban-trello"
-
-\end_inset
-
-Exemplo de um Kanban no Trello
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename /home/morvanabonin/Projetos/TCC/images/trello.jpg
-	width 16cm
-	BoundingBox 0bp 0bp 800bp 315bp
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\size footnotesize
-Fonte: Andrew Kunesh, Zapier.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_body
