@@ -483,21 +483,7 @@ status open
 
 \begin_layout Plain Layout
 \align left
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Quadro comparativo entre sistemas correlatos"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Quadro 1: Quadro comparativo entre sistemas correlatos
 \end_layout
 
 \begin_layout Plain Layout

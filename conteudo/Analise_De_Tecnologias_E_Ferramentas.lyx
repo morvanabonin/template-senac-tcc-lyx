@@ -645,13 +645,28 @@ Trello
 \end_layout
 
 \begin_layout Standard
-Trello (TRELLO, 2016) é um organizador de tarefas e eventos bastante dinâmico
+Trello (TRELLO, 2016), é um organizador de tarefas e eventos bastante dinâmico
  e funcional.
  Foi inspirado na metodologia Scrum, processo de desenvolvimento para gerenciar
  projetos e desenvolvimento ágil de softwares.
  (BORGES, 2012) Será utilizado para organização das tarefas na construção
  do sistema Focus2Learn, junto a técnica Kanban (vide Abordagem de Desenvolvimen
 to).
+\end_layout
+
+\begin_layout Subsection
+Testlink
+\end_layout
+
+\begin_layout Standard
+A ferramenta Testlink (TESTLINK, 2016), é Open Source feita em php e é usada
+ por equipes de teste para gerenciar os planos de teste, escrever casos
+ de teste, organizá-los em suites, cadastrar resultados das execuções e
+ gerar relatórios.
+ Ela atua como um editor e organizador de casos de teste, salvando todas
+ as informações relacionadas na sua base de dados, além de facilitar a geração
+ de documentação de plano de teste, relatórios e controle das versões de
+ execução de teste.
 \end_layout
 
 \end_body

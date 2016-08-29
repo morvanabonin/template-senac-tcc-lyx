@@ -454,8 +454,8 @@ Sprint
 \emph default
 .
  Assim reinicia-se o ciclo.
- (DESENVOLVIMENTOAGIL, 2014) Veja a figura abaixo de um ciclo completo da
- métodologia Scrum:
+ (DESENVOLVIMENTOAGIL, 2014) Veja na figura 1 o ciclo completo da métodologia
+ Scrum:
 \end_layout
 
 \begin_layout Standard
@@ -559,9 +559,14 @@ Fonte: Denisson Vieira, MindMaster.
 \end_layout
 
 \begin_layout Standard
-De acordo um trecho do guia 
+De acordo um trecho do guia Um guia definitivo para o Scrum: As regras do
+ jogo
 \emph on
-The Definitive Guide to Scrum: The Rules of the Game
+ (
+\emph default
+do original
+\emph on
+ The Definitive Guide to Scrum: The Rules of the Game
 \emph default
  
 \begin_inset Quotes eld
@@ -585,7 +590,7 @@ Scrum Master
 
 \begin_layout Standard
 Devido ao Scrum ser um framework ágil para times e este ser um projeto de
- um único integrante, caberá a este assumir todos os pápeis fundamentais
+ um único integrante, caberá ao mesmo assumir todos os pápeis fundamentais
  do Scrum.
  Também não será necessária a utilização da reunião diária, prevista nas
  atividades básicas.

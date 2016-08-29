@@ -737,7 +737,7 @@ Para o Bib\SpecialChar LaTeX
 : 
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "../../Área de Trabalho/senac-tcc-lyx/bibliografia"
+bibfiles "/home/morvanabonin/Desktop/senac-tcc-lyx/bibliografia"
 options "bibtotoc,bib/senac-plainnat"
 
 \end_inset

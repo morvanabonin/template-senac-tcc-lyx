@@ -342,7 +342,7 @@ Validação
 
 \begin_layout Standard
 Nesta seção será abordada a estratégia de como funcionará o processo de
- validação deste projeto.
+ validação e verificação deste projeto.
 \end_layout
 
 \begin_layout Subsection
@@ -350,7 +350,26 @@ Estratégia
 \end_layout
 
 \begin_layout Standard
+Segundo Pressman 
+\begin_inset Quotes eld
+\end_inset
 
+Engenheiros de software buscam qualidade (e desenvolvem atividades de garantia
+ de qualidade e de controle de qualidade) aplicando métodos e medidas técnicas
+ sólidas, conduzindo revisões técnicas formais e efetuando teste de software
+ bem planejado
+\begin_inset Quotes erd
+\end_inset
+
+ (Pressman, 2002)
+\end_layout
+
+\begin_layout Standard
+O projeto a ser desenvolvido será testado ao final de cada sprint com testes
+ unitários e também com testes regressivos do sistemas, estes testes regressivos
+, testes feitos seguindo um roteiro para determinar se a alteração feita
+ em um parte do sistema não afetou outras, serão realizados utilizando os
+ roteiros criados na ferramenta, Testlink.
 \end_layout
 
 \end_body
